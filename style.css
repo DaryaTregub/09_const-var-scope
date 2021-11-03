@@ -1,0 +1,57 @@
+
+.timer-block {
+  margin-top:50px;
+}
+
+.playing-field {
+  margin: 30px auto;
+  overflow: hidden;
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+}
+
+.timer-block__header {
+  margin-left:50px;
+  font-weight: bold;
+}
+
+.timer-block__timer {
+  margin-right:50px;
+  font-weight: bold;
+}
+
+.card {
+  margin: auto;
+  background-image: url(/cherno-belyy-cvetok-lotosa.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  font-size: 0;
+  font-weight: bold;
+  border: 2px solid black;
+  line-height: 1.7;
+  cursor: pointer;
+}
+
+.card:hover {
+ outline: 3px solid black;
+}
+
+.card__active,
+.card__open {
+  background-image: none;
+}
+
+.game-over__header {
+  margin-top: 100px;
+  font-size: 170px;
+  text-align: center;
+}
+
+.repeat-button {
+  text-align: center;
+}
+
+
+
